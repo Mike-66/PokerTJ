@@ -1,0 +1,38 @@
+\\In
+Game->CountPlayers
+Game->Continue
+Game->iBetRoundFinishPlayer
+Game->iPlayer
+Game->iDealer
+Game->Player[i]->GetStatus(Game->Status_Inactive_Player) > 0
+Game->Pot
+Game->RaiseBet
+Game->CallBet
+Game->RunMode
+Game->Continue
+Game->CountMessages
+Game->Message
+
+//Out
+void MainWindow::SlotPBFoldClicked() : Game->Player[Game->iPlayer]->ExternalBet=EXTERNALBET_FOLD
+void MainWindow::SlotPBCheckCallClicked() : Game->Player[Game->iPlayer]->ExternalBet=Game->CallBet;
+void MainWindow::SlotPBRaiseClicked()::Game->Player[Game->iPlayer]->ExternalBet=LEBet->text().toInt();
+void MainWindow::SlotPBStartClicked()
+
+void MainWindow::RefreshTable
+if(Game->RunMode==1 && Game->Continue==0)
+PBStart->setEnabled(true);
+
+
+Game->Player[i]->Name
+Game->Player[i]->AI_Class
+Game->Player[i]->Credit
+Game->Player[i]->Status[j]
+Game->Player[i]->ActualBet
+Game->Player[Player]->validcards  Player !!!
+Game->Player[Game->iPlayer]->ExternalBet
+Game->Player[i]->iCard[j]
+
+Board->validcards
+Board->iCard
+

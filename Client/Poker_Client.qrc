@@ -1,0 +1,63 @@
+<RCC>
+    <qresource prefix="/qss"/>
+    <qresource prefix="/styles"/>
+    <qresource prefix="/snd"/>
+    <qresource prefix="/">
+        <file>snd/PlayersTurn.wav</file>
+        <file>pic/0_0.png</file>
+        <file>pic/0_1.png</file>
+        <file>pic/0_10.png</file>
+        <file>pic/0_11.png</file>
+        <file>pic/0_12.png</file>
+        <file>pic/0_2.png</file>
+        <file>pic/0_3.png</file>
+        <file>pic/0_4.png</file>
+        <file>pic/0_5.png</file>
+        <file>pic/0_6.png</file>
+        <file>pic/0_7.png</file>
+        <file>pic/0_8.png</file>
+        <file>pic/0_9.png</file>
+        <file>pic/1_0.png</file>
+        <file>pic/1_1.png</file>
+        <file>pic/1_10.png</file>
+        <file>pic/1_11.png</file>
+        <file>pic/1_12.png</file>
+        <file>pic/1_2.png</file>
+        <file>pic/1_3.png</file>
+        <file>pic/1_4.png</file>
+        <file>pic/1_5.png</file>
+        <file>pic/1_6.png</file>
+        <file>pic/1_7.png</file>
+        <file>pic/1_8.png</file>
+        <file>pic/1_9.png</file>
+        <file>pic/2_0.png</file>
+        <file>pic/2_1.png</file>
+        <file>pic/2_10.png</file>
+        <file>pic/2_11.png</file>
+        <file>pic/2_12.png</file>
+        <file>pic/2_2.png</file>
+        <file>pic/2_3.png</file>
+        <file>pic/2_4.png</file>
+        <file>pic/2_5.png</file>
+        <file>pic/2_6.png</file>
+        <file>pic/2_7.png</file>
+        <file>pic/2_8.png</file>
+        <file>pic/2_9.png</file>
+        <file>pic/3_0.png</file>
+        <file>pic/3_1.png</file>
+        <file>pic/3_10.png</file>
+        <file>pic/3_11.png</file>
+        <file>pic/3_12.png</file>
+        <file>pic/3_2.png</file>
+        <file>pic/3_3.png</file>
+        <file>pic/3_4.png</file>
+        <file>pic/3_5.png</file>
+        <file>pic/3_6.png</file>
+        <file>pic/3_7.png</file>
+        <file>pic/3_8.png</file>
+        <file>pic/3_9.png</file>
+        <file>pic/backside.jpg</file>
+        <file>qss/stylesheet.qss</file>
+        <file>snd/ActionWarning.wav</file>
+    </qresource>
+</RCC>

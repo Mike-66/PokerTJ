@@ -1,0 +1,121 @@
+QMainWindow {
+background-color:#003800;
+}
+
+QGroupBox {
+background-color:#003800;
+border:1px solid #c8c8c8;
+}
+
+QGroupBox#GBPlayers, QGroupBox#GBPlayer, QGroupBox#GBPlayerCard, QGroupBox#GBPlayerCards, QGroupBox#GBBoard {
+background-color:#003800;
+border:1px solid #003800;
+}
+
+QGroupBox#GBPlayerDetail {
+background-color:#003800;
+border:1px solid #c8c8c8;
+}
+
+QLabel#LCard {
+border-radius:5px;
+background-color:#003800;
+border:1px solid #c8c8c8;
+}
+
+QPushButton {
+background-color:#003800;
+border-radius:5px;
+border:1px solid #c8c8c8;
+color:#005500;
+font-family:arial;
+font-size:20px;
+font-weight:bold;
+text-decoration:none;
+padding-right:10px;
+outline: 0;
+}
+
+QPushButton#PBPlayer {
+font-size:28px;
+border:1px solid #003800;
+background-color: #003800;
+color: #c8c8c8;
+}
+
+QPushButton#PBPlayer:disabled {
+font-size:28px;
+border:1px solid #003800;
+background-color: #005a00;
+color: #c8c8c8;
+}
+
+QLineEdit#LEBet {
+ font-size:16px;
+ font-weight:bold;
+}
+
+QPushButton#PBStart:hover:!pressed, QPushButton#PBRaise:hover:!pressed, QPushButton#PBCheck:hover:!pressed, QPushButton#PBCall:hover:!pressed,QPushButton#PBFold:hover:!pressed {
+background-color:#ffffff;
+color:#000000
+}
+
+QPushButton#PBStart:disabled, QPushButton#PBRaise:disabled, QPushButton#PBCheck:disabled, QPushButton#PBCall:disabled, QPushButton#PBFold:disabled {
+background-color:#003700;
+color:#005f00
+}
+
+QPushButton#PBStart:enabled, QPushButton#PBRaise:enabled, QPushButton#PBCheck:enabled, QPushButton#PBCall:enabled, QPushButton#PBFold:enabled {
+background-color:#004800;
+color:#c8c8c8
+}
+
+QLabel#LCredit {
+color:#c8c800;
+font-size:24px;
+font-weight:bold;
+}
+
+QLabel#LBet {
+color:#c8c800;
+font-size:22px;
+font-weight:bold;
+}
+
+QLabel#LLPot {
+color:#002400;
+font-size:34px;
+font-weight:bold;
+}
+
+QLabel#LPot {
+color:#c8c800;
+font-size:34px;
+font-weight:bold;
+}
+
+QLabel#LLHighestBet {
+color:#002400;
+font-size:32px;
+font-weight:bold;
+}
+
+QLabel#LHighestBet {
+color:#c8c800;
+font-size:32px;
+font-weight:bold;
+}
+
+QTextEdit {
+background-color:#000000;
+color:#c8c8c8;
+}
+
+QScrollBar:vertical {
+    border: 1px solid #c8c8c8;
+    background:#000000;
+    width:12px;
+    margin: 0px 0px 0px 0px;
+}
+
+

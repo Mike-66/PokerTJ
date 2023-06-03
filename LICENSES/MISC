@@ -1,0 +1,13 @@
+QT
+
+https://doc.qt.io/qt-5/licensing.html
+https://doc.qt.io/qt-5/licenses-used-in-qt.html
+
+OpenSSL
+http://www.openssl.org/source/license.html
+
+Cards
+
+Courtesy of https://code.google.com/p/vector-playing-cards/ (public domain)
+
+Due to dependencies of these libs, PokerTJ may link to additional libs not listed here. If you think acknowledgement for a certain lib is missing, please contact us.

@@ -1,0 +1,135 @@
+0.0.4-delete player zu früh, auch bei bots, falls human  stürzt client ab, yessir nicht für zu früh deleteten Spieler -> Klar, gefixt Client bis 0 (war 1), ALL IN Bei Blinds
+0.0.4-Totalcredit fallsch wenn Nick_8 noch 1 Credit hat alternativerklärung hat Tisch Verlassen , Problem ist Client zeigt ihn noch an. -> Siehe oben
+0.0.4-letzter raise darf nicht noch mal raisen ohne reraise in der Runde
+0.0.4-numer of players
+0.0.4-Fold  alle Spieler ausser 1 Runde fertig , Gewinner muss trotzdem flippen, soll aber nicht müssen, Kosmetik: letzter Spieler am Tisch darf flippen
+0.0.4-Log Fenster soll immer mitlaufen
+0.0.4-LogView Autoscroll mandatory
+0.0.4-Raise mindestens Big Blind , falls raise gedrückt und bet zu klein für raise, automatische ergöhung auf Mindestraise (Big Blind). 
+0.0.4-All in Knopf / Raise button umbeschriften Blinken bei Eingabe von Betrag über Credit
+0.0.4-Flip openent cards
+0.0.4-Showdown ist nur noch Karten aufdecken.
+0.0.4-erste Runde alle ALL IN komisch
+
+0.0.4-Farbe hintergrund Grün, stylesheet.qss im Pfad, wird gelesen
+0.0.4-Chatfenster nicht editieren
+0.0.4-Höchster Gesetzter Einsatz in Runde anzeigen
+0.0.4-Three Pairs wrong result, gefixt
+0.0.4-eigenes Gebot in die Mittte
+
+0.0.4-reinkommen Stüle sehen 
+0.0.4-Mitten in der Runde Beitritt Sigseg
+0.0.4-Generell schade dass Spieler wenn kein Credit rausfliegt, implemented spotter, player morphs to spotter 
+0.0.4-Buttons vergrössert
+
+0.0.5-Bug fixed "last consequent raise after Blinds was requested to check/call/raise/fold again".
+0.0.5-Bux fixed last raise reset : flip cards in showdown for player with last raise in river or, if none, first player after dealer 
+0.0.5-Countdown 10 secs für nächste Runde, kann unterbrochen werden (Pause), dananch manueller start
+0.0.5-Benutzername ist Windows-Anmeldename ( konkret Substring nach letztem "/" des Homedirs, QT bietet keinen Möglichkeit den Usernamen direkt zu ermitteln  )
+0.0.5-Konfig jetzt in c:\Users\%USER%\AppData\Local\PokerTJ\pokertj.cfg. Wer das Executable umbenennt, findet die Konfig entsprechend in einem anderen Ordner wieder.
+0.0.5-QoL:
+		-herkömmliche Bedienung von Raise/Call/Check/Fold/LEBet durch Mausklick/KeyBoard wie gehabt.
+		-ActionByKeys/Mouse in 
+		-inc/dec Bet um Big Blind   Key w/s oder MouseWheel up/down:  
+		-Raise                      Key F1  oder Mouse Middle/Wheel Press
+		-Check/Call/Flip Cards      Key F2  oder Mouse Left Press: 
+                -Fold                       Key F3  oder Mouse Right Press: 
+			Ausnahme: LogView oder LEBet hat den Fokus (z.B. nach Klick in LogView oder LEBet). QoL kann durch Klick in LogView, danach Tab reaktiviert werden
+			
+		Keys sind konfigurierbar. Poker_all gibt den Code für die gedrückte Taste auf der Debugkonsole aus. 
+		Diesen für die gewünschte Aktion in Konfig eintragen. PokerTJ neu starten.
+0.0.5-Blindsraise: Bigblind bei Spielerstellung konfigurierbar,Blind ist immer die hälfte, Zeit zwischen Raises einstellbar, Raisefolge wie im Big Blind Dropdown		
+0.0.5-Spieler hat nach Fold keine Karten mehr sichtbar
+
+0.0.6-feature "lost aktiver Spieler" wird nicht angezeigt gefixt
+0.0.6-bei ALL IN Spieler/inaktiv werden Karten transparent
+0.0.6-bei Fold Spieler werden die Karten "weggelegt" (unsichtbar)
+
+0.1.0-ALL IN transparent auch Kartenrückseiten
+0.1.0-neues Actionlayout, Check/Call Button separiert
+0.1.0-Key/Mousebinds Anzeige bei Buttons, set Buttons lediglich vorbereitet, [ESC] -> Tab Key+Mouse, wird nur im Spiel refreshed
+0.1.0-Bug removed SigSegV server if all Players all in and seat after dealer is not occupied
+0.1.0-Bug removed SigSegV server after Player with no Credit leaves before next round started.
+0.1.0-KonfigDialog Mouse/KeyBinds [ESC]
+0.1.0-Tranzprenz nach aufdecken wegnehmen
+0.1.0-Keys+Mouse und Sound Menue verfügbar, wenn Spiel gestartet über Taste [ESC]
+0.1.0-Sound wenn Player an der Reihe, individualisierbar über  ~/AppData/Local/PokerTJ/Sound/PlayersTurn.wav, set Volume [ESC] -> Tab Sound -> PlayersTurn
+0.1.0-Sound wenn der zu bringende Call einen in Prozent konfigurierbaren Teil des eigenen Vermögens übersteigt, individualisierbar über  		
+~/AppData/Local/PokerTJ/Sound/ActionWarning.wav, set Volume, % of Credit  [ESC] -> Tab Sound -> Action Warning 
+0.1.0-Rebuy zu jedem Zeitpunkt in Höhe des im Spiel festgelegten Credit beliebig oft, keine Nachfrage, durch Klick auf eigenes Vermögen
+
+0.1.1-Spielein/Austritt restrukturiert, Liste verfügbarer Spiele mit Reload Button
+		
+------------------------------------------------------------------------------------------------------------------------------		
+		
+Noch auf der Liste:	
+-Check Same User loggin in twice
+-Gewinnrunden pro Spieler
+-Karten Geräsche, Chips
+-Auto Check Fold,
+-Eigener Spieler unten in der Mitte.
+-icon
+
+
+DebugTools:
+
+https://docs.microsoft.com/en-us/sysinternals/downloads/debugview
+procmon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
